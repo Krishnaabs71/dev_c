@@ -1,0 +1,168 @@
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+.w-100 {
+  width: 100%;
+}
+.login-section {
+  max-width: 577px;
+  background-color: white;
+  border-radius: 6px;
+}
+.logoimage {
+  padding: 14px 0px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.login {
+  font-size: 29px;
+  padding: 16px 0px;
+  margin: 0px;
+  font-weight: 600;
+  color: #20b716;
+}
+.mt-24 {
+  margin-top: 24px;
+}
+.form-label {
+  color: #20b716;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0px !important;
+}
+.form-control {
+  padding: 0px !important;
+  border: none !important;
+  font-size: 16px;
+  border-bottom: 1px solid #0000004a !important;
+  border-radius: 0px !important;
+  line-height: 0.5 !important;
+}
+.form-control:focus {
+  box-shadow: none !important;
+}
+form div {
+  margin-bottom: 10px;
+}
+.google{
+  background: #4285F4;
+    padding: 5px;
+    color:white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.google img{
+  width: 36px;
+  height: 36px;
+}
+.mt-16{
+  margin-top:16px;
+}
+.google p{
+  padding: 15px 0px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.main-content{
+  width:385px;
+}
+.d-flex {
+  display: flex;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.text-center {
+  text-align: center;
+}
+.mt-8 {
+  margin-top: 8px;
+}
+.p-0 {
+  padding: 0px !important;
+}
+.btn-success {
+  margin-top: 24px;
+    background: #20B716!important;
+    border: none !important;
+    color: white !important;
+    width: 100%;
+    text-align: center !important;
+    border-radius: 40px !important;
+    font-size: 23px !important;
+    padding: 12px !important;
+    font-weight: 600!important;
+}
+.pt-16{
+  padding-top:16px;
+}
+.pt-16 p{
+  font-weight: 600;
+    font-size: 16px;
+}
+.pt-16 p:nth-child(2){
+   color:red
+}
+.or-content{
+  padding: 16px 0px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+
+}
+.mb-46{
+  margin-bottom:46px;
+}
+.error{
+  font-size: 14px;
+  font-weight: bold;
+}
+.error img{
+  margin-right: 5px;
+}
+@media screen and (max-width:420px){
+  .main-content{
+    width: 300px;
+  }
+  .google p{
+    padding: 9px 0px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .btn-success{
+    font-size: 20px!important;
+    padding:8px!important;
+  }
+}
+@media screen and (min-width:991px){
+  .login-section{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+@media screen and (max-width:991px){
+  .login-section{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+@media screen and (max-width:575px){
+  .login-section{
+    max-width: 400px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .banner-image img{
+    height: 200px;
+    object-fit: cover;
+  }
+
+}
